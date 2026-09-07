@@ -1,4 +1,3 @@
-concurrency/completablefuture-chaining
 enterprise/spring-api-versioning
 io/http-client
 streams/stream-mapmulti

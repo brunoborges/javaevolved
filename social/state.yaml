@@ -1,6 +1,6 @@
-lastPostedKey: language/markdown-javadoc-comments
-lastTweetId: 2095563614417535466
-lastPostedAt: 2026-09-03T17:24:34.214724621Z
+lastPostedKey: concurrency/completablefuture-chaining
+lastTweetId: 2097029927598199287
+lastPostedAt: 2026-09-07T18:31:10.545731248Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -39,3 +39,4 @@ postedKeys:
 - collections/map-entry-factory
 - concurrency/scoped-values
 - language/markdown-javadoc-comments
+- concurrency/completablefuture-chaining
