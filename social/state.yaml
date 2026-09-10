@@ -1,6 +1,6 @@
-lastPostedKey: concurrency/completablefuture-chaining
-lastTweetId: 2097029927598199287
-lastPostedAt: 2026-09-07T18:31:10.545731248Z
+lastPostedKey: enterprise/spring-api-versioning
+lastTweetId: 2098100521554878923
+lastPostedAt: 2026-09-10T17:25:20.085820772Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -40,3 +40,4 @@ postedKeys:
 - concurrency/scoped-values
 - language/markdown-javadoc-comments
 - concurrency/completablefuture-chaining
+- enterprise/spring-api-versioning

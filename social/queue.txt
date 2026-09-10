@@ -1,4 +1,3 @@
-enterprise/spring-api-versioning
 io/http-client
 streams/stream-mapmulti
 strings/string-formatted
