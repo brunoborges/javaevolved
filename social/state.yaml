@@ -1,6 +1,6 @@
-lastPostedKey: enterprise/spring-api-versioning
-lastTweetId: 2098100521554878923
-lastPostedAt: 2026-09-10T17:25:20.085820772Z
+lastPostedKey: io/http-client
+lastTweetId: 2099573460464976350
+lastPostedAt: 2026-09-14T18:58:16.012952635Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -41,3 +41,4 @@ postedKeys:
 - language/markdown-javadoc-comments
 - concurrency/completablefuture-chaining
 - enterprise/spring-api-versioning
+- io/http-client

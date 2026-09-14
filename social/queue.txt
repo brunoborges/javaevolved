@@ -1,4 +1,3 @@
-io/http-client
 streams/stream-mapmulti
 strings/string-formatted
 datetime/duration-and-period
