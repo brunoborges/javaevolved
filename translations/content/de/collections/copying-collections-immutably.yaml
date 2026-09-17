@@ -1,10 +1,10 @@
-title: Kollektionen unveränderlich kopieren
+title: Collections unveränderlich kopieren
 oldApproach: Manuelle Kopie + Wrapper
 modernApproach: "List.copyOf()"
-summary: Eine unveränderliche Kopie einer beliebigen Kollektion mit einem einzigen Aufruf erstellen.
+summary: Eine unveränderliche Kopie einer beliebigen Collection mit einem einzigen Aufruf erstellen.
 explanation: "List.copyOf(), Set.copyOf() und Map.copyOf() erstellen unveränderliche\
-  \ Momentaufnahmen bestehender Kollektionen. Wenn die Quelle bereits eine unveränderliche\
-  \ Kollektion ist, wird keine Kopie erstellt."
+  \ Momentaufnahmen bestehender Collections. Wenn die Quelle bereits eine unveränderliche\
+  \ Collection ist, wird keine Kopie erstellt."
 whyModernWins:
 - icon: "⚡"
   title: Intelligente Kopie

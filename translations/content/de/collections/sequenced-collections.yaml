@@ -1,4 +1,4 @@
-title: Sequenzierte Kollektionen
+title: Sequenzierte Collections
 oldApproach: Index-Arithmetik
 modernApproach: getFirst/getLast
 summary: "Auf das erste/letzte Element zugreifen und umgekehrte Ansichten mit sauberen API-Methoden erhalten."
