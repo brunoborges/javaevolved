@@ -1,4 +1,4 @@
-title: Sperrenfreie Lazy-Initialisierung
+title: Lock-freie Lazy-Initialisierung
 oldApproach: synchronized + volatile
 modernApproach: StableValue
 summary: Double-Checked Locking durch StableValue für Lazy-Singletons ersetzen.
@@ -11,7 +11,7 @@ whyModernWins:
   desc: "Kein volatile, synchronized oder doppelte Null-Prüfung."
 - icon: "⚡"
   title: Schnellere Lesevorgänge
-  desc: Die JVM kann den Wert nach der Initialisierung konstant falten.
+  desc: Die JVM kann den Wert nach der Initialisierung per Constant Folding optimieren.
 - icon: "✅"
   title: Nachweislich korrekt
   desc: "Keine subtilen Reihenfolge-Fehler — die JVM kümmert sich darum."

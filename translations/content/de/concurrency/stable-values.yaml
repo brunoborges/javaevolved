@@ -1,7 +1,7 @@
 title: Stable Values
 oldApproach: Double-Checked Locking
 modernApproach: StableValue
-summary: Thread-sichere Lazy-Initialisierung ohne volatile oder synchronized.
+summary: Threadsichere Lazy-Initialisierung ohne volatile oder synchronized.
 explanation: "StableValue bietet einen träge initialisierten, unveränderlichen Wert\
   \ mit eingebauter Thread-Sicherheit. Kein Double-Checked Locking, keine volatile-Felder,\
   \ keine synchronized-Blöcke. Die JVM kann den Lesepfad nach der Initialisierung\
@@ -12,7 +12,7 @@ whyModernWins:
   desc: "Kein volatile, synchronized oder Null-Prüfungen."
 - icon: "⚡"
   title: JVM-optimiert
-  desc: Die JVM kann den Wert nach der Initialisierung falten.
+  desc: Die JVM kann den Wert nach der Initialisierung per Constant Folding optimieren.
 - icon: "🛡️"
   title: Garantiert einmalig
   desc: "Der Supplier wird genau einmal ausgeführt, auch unter Contention."
