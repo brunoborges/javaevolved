@@ -7,7 +7,7 @@ explanation: "Map.of() akzeptiert Schlüssel-Wert-Paare inline und gibt eine unv
 whyModernWins:
 - icon: "📏"
   title: Inline-Erstellung
-  desc: Kein temporäres veränderliches Map erforderlich.
+  desc: Keine temporäre, veränderliche Map erforderlich.
 - icon: "🔒"
   title: Unveränderliches Ergebnis
   desc: Die Map kann nach der Erstellung nicht mehr geändert werden.

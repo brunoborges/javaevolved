@@ -12,7 +12,7 @@ whyModernWins:
   title: Lazy-Streaming
   desc: Zeilen werden bei Bedarf erzeugt, nicht alle auf einmal wie bei split().
 - icon: 🔧
-  title: Universelle Zeilenendezeichen
+  title: Universelle Zeilenumbrüche
   desc: "Behandelt \\n, \\r und \\r\\n automatisch ohne Regex."
 - icon: 🔗
   title: Stream-Integration

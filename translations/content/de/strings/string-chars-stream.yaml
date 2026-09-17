@@ -11,7 +11,7 @@ whyModernWins:
   desc: Filter, Map, Collect auf Zeichen-Streams anwenden.
 - icon: 📐
   title: Deklarativ
-  desc: Beschreibt was zu tun ist, nicht wie zu iterieren.
+  desc: Beschreibt, was zu tun ist, und nicht, wie iteriert werden muss.
 - icon: 🌐
   title: Unicode-bereit
   desc: codePoints() behandelt Emojis und ergänzende Zeichen korrekt.

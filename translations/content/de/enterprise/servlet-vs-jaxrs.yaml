@@ -1,7 +1,7 @@
 title: Servlet versus JAX-RS
 oldApproach: HttpServlet
 modernApproach: JAX-RS-Ressource
-summary: Ersetze ausführlichen HttpServlet-Boilerplate durch deklarative JAX-RS-Ressourcenklassen.
+summary: Ausführlichen HttpServlet-Boilerplate durch deklarative JAX-RS-Ressourcenklassen ersetzen.
 explanation: "JAX-RS (Jakarta RESTful Web Services) ermöglicht das Bereitstellen von REST-Endpunkten mit einfachen Annotationen wie @GET, @Path und @Produces. Kein manuelles Parsen von Request-Parametern oder Setzen von Content-Types in der Response mehr — die Laufzeitumgebung übernimmt Marshalling und Routing automatisch."
 whyModernWins:
 - icon: 📐

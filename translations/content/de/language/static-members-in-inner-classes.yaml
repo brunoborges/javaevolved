@@ -6,7 +6,7 @@ explanation: "Vor Java 16 konnten nur statisch verschachtelte Klassen statische 
 whyModernWins:
 - icon: "🔓"
   title: "Mehr Flexibilität"
-  desc: "Innere Klassen können bei Bedarf nun statische Mitglieder haben."
+  desc: "Innere Klassen können nun bei Bedarf statische Mitglieder haben."
 - icon: "🧩"
   title: "Gemeinsamer Zustand"
   desc: "Gemeinsamen Zustand über Instanzen einer inneren Klasse hinweg verfolgen."

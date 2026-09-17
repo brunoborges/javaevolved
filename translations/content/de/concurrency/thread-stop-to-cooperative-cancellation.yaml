@@ -1,12 +1,12 @@
-title: Unsichere Thread-Beendigung zu kooperativer Abbruchsteuerung
+title: Von unsicherer Thread-Beendigung zu kooperativem Abbruch
 oldApproach: Thread.stop()
 modernApproach: Future.cancel(true)
-summary: Ersetzen Sie Thread.stop() und ad-hoc geteilte Flags durch unterbrechungsbewusste Aufgabenabbrüche.
+summary: Thread.stop() und Ad-hoc-Flags durch unterbrechungsbewusste Aufgabenabbrüche ersetzen.
 explanation: "Thread.stop() kann Code beenden, während er Monitore besitzt oder gemeinsam\
   \ genutzten Zustand aktualisiert, wodurch Objekte beschädigt bleiben können. Moderne\
-  \ Abbruchsteuerung ist kooperativ: Brechen Sie das Future mit Unterbrechung ab,\
-  \ leiten Sie InterruptedException weiter, wo möglich, stellen Sie den Unterbrechungsstatus\
-  \ wieder her, wenn dies nicht möglich ist, und gestalten Sie die Aufgabe so, dass\
+  \ Abbruchsteuerung ist kooperativ: Das Future mit Unterbrechung abbrechen,\
+  \ InterruptedException weiterleiten, wo möglich, den Unterbrechungsstatus\
+  \ wiederherstellen, wenn dies nicht möglich ist, und die Aufgabe so gestalten, dass\
   \ sie sichere Abbruchpunkte erreicht."
 whyModernWins:
 - icon: "🛡"

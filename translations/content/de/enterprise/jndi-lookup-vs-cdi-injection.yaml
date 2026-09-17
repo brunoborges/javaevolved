@@ -1,7 +1,7 @@
 title: JNDI-Lookup vs. CDI-Injektion
 oldApproach: JNDI-Lookup
 modernApproach: CDI @Inject
-summary: Ersetze fragile JNDI-String-Lookups durch typsichere CDI-Injektion für vom Container verwaltete Ressourcen.
+summary: Fragile JNDI-String-Lookups durch typsichere CDI-Injektion für vom Container verwaltete Ressourcen ersetzen.
 explanation: Das traditionelle JNDI-Muster zwingt zur Verwendung stringbasierter Ressourcennamen, zur Behandlung von NamingException und zur Verwaltung eines InitialContext. CDI-Injektion mit @Inject (oder @Resource für Container-Ressourcen) lässt den Container Abhängigkeiten automatisch verdrahten. Tippfehler werden zu Kompilierfehlern, und Klassen sind leichter zu testen, da Abhängigkeiten direkt injiziert werden können.
 whyModernWins:
 - icon: 🔒

@@ -1,8 +1,8 @@
 title: Grundlagen der java.time-API
 oldApproach: Date + Calendar
 modernApproach: java.time.*
-summary: Verwende unveränderliche, klare Datums-/Zeittypen statt Date und Calendar.
-explanation: java.time stellt LocalDate, LocalTime, LocalDateTime, Instant und ZonedDateTime bereit — alle unveränderlich und thread-sicher. Monate sind ab 1 indiziert. Keine Verwirrung mehr durch Calendar.JANUARY = 0.
+summary: Unveränderliche, klare Datums-/Zeittypen statt Date und Calendar verwenden.
+explanation: java.time stellt LocalDate, LocalTime, LocalDateTime, Instant und ZonedDateTime bereit — alle unveränderlich und threadsicher. Monate sind ab 1 indiziert. Keine Verwirrung mehr durch Calendar.JANUARY = 0.
 whyModernWins:
 - icon: 🔒
   title: Unveränderlich
@@ -11,7 +11,7 @@ whyModernWins:
   title: Klare API
   desc: Month.JANUARY statt 0. DayOfWeek.MONDAY statt 2.
 - icon: 🛡️
-  title: Thread-sicher
+  title: Threadsicher
   desc: Keine Synchronisierung nötig — kann frei zwischen Threads geteilt werden.
 support:
   description: Weitgehend verfügbar seit JDK 8 (März 2014)

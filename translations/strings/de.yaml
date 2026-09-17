@@ -29,9 +29,18 @@ sections:
   proof: Beweis
   proofLink: Beweisquelle ansehen
   relatedPatterns: Verwandte Muster
+  tags: Themen
+topics:
+  title: "{{tagDisplay}} — java.evolved"
+  description: "Alle Java-Muster zum Thema {{tagDisplay}} — java.evolved"
+  heading: "Thema: {{tagDisplay}}"
+  breadcrumb: Themen
+  backToAll: ← Alle Muster
+  snippetCount: "{{count}} Muster"
 filters:
   show: 'Anzeigen:'
   all: Alle
+  jdk: 'JDK:'
   category: 'Kategorie:'
   showAll: Alle anzeigen
   hideAll: Alle ausblenden
@@ -92,5 +101,5 @@ contribute:
   seeIssue: "Problem mit diesem Code entdeckt?"
   reportIt: "Sag uns Bescheid."
 untranslated:
-  notice: Diese Seite wurde noch nicht ins {{localeName}} übersetzt.
+  notice: Diese Seite wurde noch nicht auf {{localeName}} übersetzt.
   viewInEnglish: Auf Englisch ansehen

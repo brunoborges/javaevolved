@@ -1,7 +1,7 @@
 title: JDBC versus jOOQ
 oldApproach: Rohes JDBC
 modernApproach: jOOQ SQL DSL
-summary: Ersetze stringbasiertes SQL mit rohem JDBC durch das typsichere, fließende SQL-DSL von jOOQ.
+summary: Stringbasiertes SQL mit rohem JDBC durch das typsichere, fließende SQL-DSL von jOOQ ersetzen.
 explanation: "jOOQ (Java Object Oriented Querying) generiert Java-Code aus dem Datenbankschema und wandelt Tabellen- und Spaltennamen in typsichere Java-Konstanten um. Das fließende DSL spiegelt die SQL-Syntax wider, sodass Abfragen lesbar und kombinierbar sind. Alle Parameter werden automatisch gebunden, was SQL-Injection-Risiken eliminiert. Anders als JPA/JPQL unterstützt jOOQ SQL vollständig — Fensterfunktionen, CTEs, RETURNING-Klauseln und anbieterspezifische Erweiterungen sind erstklassig."
 whyModernWins:
 - icon: 🔒

@@ -1,7 +1,7 @@
-title: "Standard-Charset-Datei-I/O zu explizitem StandardCharsets"
+title: "Von plattformabhängigem Standard-Charset zu explizitem StandardCharsets"
 oldApproach: "Plattformabhängiger Standard-Zeichensatz"
 modernApproach: "Expliziter Standard-Zeichensatz"
-summary: "Verwenden Sie Files-Reader und -Writer mit StandardCharsets-Konstanten statt sich auf das plattformabhängige Standard-Charset-Verhalten und die Zeichensatznamens-Suche zu verlassen."
+summary: "Files-Reader und -Writer mit StandardCharsets-Konstanten verwenden, statt sich auf das plattformabhängige Standard-Charset und fehleranfällige Zeichensatznamen zu verlassen."
 explanation: "Reader- und Writer-Konstruktoren, die sich auf den Standard-Zeichensatz verlassen, machen das Dateiverhalten von der Laufzeitumgebung abhängig. Files.newBufferedReader() und newBufferedWriter() akzeptieren ein explizites Charset, während StandardCharsets garantierte Konstanten wie UTF_8 ohne String-Suche oder UnsupportedCharsetException bereitstellt."
 whyModernWins:
 - icon: "🌍"

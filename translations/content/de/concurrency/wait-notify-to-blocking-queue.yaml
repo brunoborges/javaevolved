@@ -1,7 +1,7 @@
-title: Wait/notify-Warteschlangen zu BlockingQueue
+title: Von wait/notify zu BlockingQueue
 oldApproach: Manuelles wait und notify
 modernApproach: BlockingQueue
-summary: Ersetze handgeschriebene Producer-Consumer-Koordination durch BlockingQueue.
+summary: Handgeschriebene Producer-Consumer-Koordination durch BlockingQueue ersetzen.
 explanation: "Korrekter wait/notify-Code erfordert einen gemeinsamen Monitor, Bedingungsschleifen,\
   \ passende Benachrichtigungen und sorgfältige Behandlung von Interrupts. BlockingQueue\
   \ kapselt diese Regeln und bietet blockierende, zeitgesteuerte und nicht-blockierende\

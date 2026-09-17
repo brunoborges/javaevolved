@@ -1,8 +1,7 @@
-title: Timer-Aufgaben zu geplanten Executors
+title: Von Timer und TimerTask zu ScheduledExecutorService
 oldApproach: Timer und TimerTask
 modernApproach: ScheduledExecutorService
-summary: Ersetzen Sie Timer und TimerTask durch ScheduledExecutorService für robuste
-  geplante Aufgaben.
+summary: Timer und TimerTask durch ScheduledExecutorService für robuste Aufgabenplanung ersetzen.
 explanation: Timer führt jede Aufgabe auf einem Thread aus, sodass eine lang laufende
   Aufgabe die anderen verzögert und eine unbehandelte Ausnahme den Timer-Thread beendet.
   ScheduledExecutorService nutzt das Executor-Framework, unterstützt mehrere Worker,

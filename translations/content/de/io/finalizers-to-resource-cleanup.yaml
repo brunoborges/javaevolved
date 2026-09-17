@@ -14,4 +14,4 @@ whyModernWins:
   title: "Defensive Rückfallebene"
   desc: "Cleaner kann nicht freigegebene Ressourcen bereinigen, ohne finalize() zu überschreiben."
 support:
-  description: "Cleaner und die Veraltung der Finalisierung sind seit JDK 9 verfügbar (September 2017)"
+  description: "Cleaner und die Kennzeichnung von Finalizern als veraltet sind seit JDK 9 verfügbar (September 2017)"
