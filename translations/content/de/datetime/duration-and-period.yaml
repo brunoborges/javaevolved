@@ -1,7 +1,7 @@
 title: Duration und Period
 oldApproach: Millisekunden-Arithmetik
 modernApproach: Duration / Period
-summary: Berechne Zeitdifferenzen typsicher mit Duration und Period.
+summary: Zeitdifferenzen typsicher mit Duration und Period berechnen.
 explanation: Duration steht für zeitbasierte Mengen (Stunden, Minuten, Sekunden). Period steht für datumsbasierte Mengen (Jahre, Monate, Tage). ChronoUnit.between() eignet sich für einfache Differenzen. Alle Klassen behandeln Sonderfälle korrekt.
 whyModernWins:
 - icon: 🎯
