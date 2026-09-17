@@ -1,7 +1,7 @@
 title: "Objects.requireNonNullElse()"
 oldApproach: "Ternäre Null-Prüfung"
 modernApproach: "requireNonNullElse()"
-summary: "Einen Non-null-Wert mit einem klaren Standardwert ermitteln – kein ternärer Operator nötig."
+summary: "Einen Non-Null-Wert mit einem klaren Standardwert ermitteln – kein ternärer Operator nötig."
 explanation: "requireNonNullElse gibt das erste Argument zurück, wenn es nicht null ist, andernfalls das zweite. Der Standardwert selbst darf nicht null sein – bei zwei null-Werten wird eine NPE geworfen, was Fehler frühzeitig aufdeckt."
 whyModernWins:
 - icon: "📖"
