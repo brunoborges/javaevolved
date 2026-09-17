@@ -1,4 +1,3 @@
-streams/stream-mapmulti
 strings/string-formatted
 datetime/duration-and-period
 errors/optional-orelsethrow

@@ -1,6 +1,6 @@
-lastPostedKey: io/http-client
-lastTweetId: 2099573460464976350
-lastPostedAt: 2026-09-14T18:58:16.012952635Z
+lastPostedKey: streams/stream-mapmulti
+lastTweetId: 2100644067852038175
+lastPostedAt: 2026-09-17T17:52:28.699742989Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -42,3 +42,4 @@ postedKeys:
 - concurrency/completablefuture-chaining
 - enterprise/spring-api-versioning
 - io/http-client
+- streams/stream-mapmulti
