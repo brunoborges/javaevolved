@@ -3,7 +3,7 @@ oldApproach: iterate + limit
 modernApproach: iterate(seed, pred, op)
 summary: Ein Prädikat zum Beenden der Iteration verwenden – wie eine for-Schleife
   als Stream.
-explanation: "Das dreiargumented Stream.iterate(seed, hasNext, next) funktioniert\
+explanation: "Das dreiargumentige Stream.iterate(seed, hasNext, next) funktioniert\
   \ wie eine for-Schleife: seed ist der Startwert, hasNext bestimmt den Abbruch und\
   \ next erzeugt den nächsten Wert."
 whyModernWins:

@@ -3,7 +3,7 @@ oldApproach: Manuelle Schleife
 modernApproach: takeWhile/dropWhile
 summary: Elemente aus einem Stream basierend auf einem Prädikat nehmen oder überspringen.
 explanation: takeWhile() gibt Elemente zurück, solange das Prädikat wahr ist, und
-  stoppt beim ersten Falsch-Wert. dropWhile() überspringt Elemente, solange es wahr
+  stoppt beim ersten false-Wert. dropWhile() überspringt Elemente, solange es wahr
   ist, und gibt den Rest zurück. Beide funktionieren am besten bei geordneten Streams.
 whyModernWins:
 - icon: 🎯
@@ -14,7 +14,7 @@ whyModernWins:
   desc: Kettet sich natürlich mit anderen Stream-Operationen.
 - icon: 📖
   title: Deklarativ
-  desc: "takeWhile liest sich wie natürliche Sprache: 'nehme, solange kleiner als\
+  desc: "takeWhile liest sich wie natürliche Sprache: 'nimm, solange kleiner als\
     \ 100'."
 support:
   description: Weitgehend verfügbar seit JDK 9 (Sept. 2017)
