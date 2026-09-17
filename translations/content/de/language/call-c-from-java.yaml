@@ -2,7 +2,7 @@ title: "C-Code aus Java aufrufen"
 oldApproach: "JNI (Java Native Interface)"
 modernApproach: "FFM (Foreign Function & Memory API)"
 summary: "FFM ermöglicht es Java, C-Bibliotheken direkt aufzurufen, ohne JNI-Boilerplate oder Java-Kenntnisse auf der C-Seite."
-explanation: "Java bietet zwei Ansätze zum Aufrufen von nativem C/C++-Code: das traditionelle JNI und die moderne FFM API. Bei JNI deklarieren Sie eine Methode als native, führen javac -h aus, um eine C-Header-Datei zu generieren, und implementieren die Funktion mit der umständlichen JNI-C-API (JNIEnv, jstring usw.). FFM, als Standard-API in Java 22 eingeführt, eliminiert all das: C-Code bleibt reines C — keine JNI-Konventionen erforderlich. Dies macht es viel einfacher, bestehende C/C++-Bibliotheken ohne Änderungen aufzurufen. Die Java-Seite verwendet Arena für sicheres Off-Heap-Speichermanagement und MethodHandle für den Downcall, was sowohl Flexibilität als auch Sicherheit gewährleistet."
+explanation: "Java bietet zwei Ansätze zum Aufrufen von nativem C/C++-Code: das traditionelle JNI und die moderne FFM API. Bei JNI deklariert man eine Methode als native, führt javac -h aus, um eine C-Header-Datei zu generieren, und implementiert die Funktion mit der umständlichen JNI-C-API (JNIEnv, jstring usw.). FFM, als Standard-API in Java 22 eingeführt, eliminiert all das: C-Code bleibt reines C — keine JNI-Konventionen erforderlich. Dies macht es viel einfacher, bestehende C/C++-Bibliotheken ohne Änderungen aufzurufen. Die Java-Seite verwendet Arena für sicheres Off-Heap-Speichermanagement und MethodHandle für den Downcall, was sowohl Flexibilität als auch Sicherheit gewährleistet."
 whyModernWins:
 - icon: "👁"
   title: "C-Code bleibt reines C"

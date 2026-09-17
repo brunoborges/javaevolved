@@ -2,7 +2,7 @@
 title: Rohe Collections zu generischen Typen
 oldApproach: Rohe Collections
 modernApproach: Generische Collections
-summary: Ersetzen Sie rohe Collection-Typen und Downcasts durch generische Typsicherheit zur Kompilierzeit.
+summary: Rohe Collection-Typen und Downcasts durch generische Typsicherheit zur Kompilierzeit ersetzen.
 explanation: "Rohe Collections akzeptieren beliebige Objekttypen und verschieben Typfehler bis zur Ausführung eines Casts.\
   \ Generische Typargumente lassen den Compiler Schreib- und Lesezugriffe prüfen, entfernen Casts, verbessern die\
   \ IDE-Unterstützung und machen API-Verträge explizit. Rohe Typen sollten normalerweise nur an sorgfältig isolierten\

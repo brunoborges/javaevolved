@@ -6,7 +6,7 @@ explanation: "Record-Muster ermöglichen die Zerlegung der Komponenten eines Rec
 whyModernWins:
 - icon: "🎯"
   title: "Direkter Zugriff"
-  desc: "Record-Komponenten zugreifen, ohne Accessoren manuell aufzurufen."
+  desc: "Auf Record-Komponenten zugreifen, ohne Accessoren manuell aufzurufen."
 - icon: "🪆"
   title: "Verschachtelbar"
   desc: "Muster können verschachtelt werden – innere Records in einem einzigen Ausdruck abgleichen."
