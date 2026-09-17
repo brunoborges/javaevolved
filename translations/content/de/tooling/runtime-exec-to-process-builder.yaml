@@ -2,7 +2,7 @@
 title: "Von Runtime.exec(String) zu ProcessBuilder-Argumenten"
 oldApproach: "Runtime.exec(String)"
 modernApproach: "ProcessBuilder"
-summary: "Starte Prozesse mit einer expliziten Argumentliste und ProcessBuilder-Konfiguration."
+summary: "Prozesse mit einer expliziten Argumentliste und ProcessBuilder-Konfiguration starten."
 explanation: "Runtime.exec(String) wendet die Tokenisierung von Java-Befehlszeichenketten an, die leicht missverstanden wird, wenn Argumente Leerzeichen oder Anführungszeichen enthalten. ProcessBuilder nimmt Programmargumente als eigenständige Werte entgegen und macht Arbeitsverzeichnis, Umgebung, Ein-/Ausgabeumleitungen sowie die Behandlung des Fehlerstroms explizit. Eine Shell wird nur gestartet, wenn die Anwendung dies ausdrücklich möchte."
 whyModernWins:
 - icon: "🎯"

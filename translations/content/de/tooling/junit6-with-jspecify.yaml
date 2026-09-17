@@ -18,7 +18,7 @@ whyModernWins:
     \ API – kein Lesen des Quellcodes erforderlich."
 - icon: 🛡️
   title: Sicherheit zur Kompilierzeit
-  desc: IDEs und Analysatoren warnen, wenn null übergeben wird, wo Nicht-null erwartet
+  desc: IDEs und Analysatoren warnen, wenn null übergeben wird, wo ein Non-Null-Wert erwartet
     wird, und erkennen Fehler vor dem Testlauf.
 - icon: 🌐
   title: Ökosystem-Standard
