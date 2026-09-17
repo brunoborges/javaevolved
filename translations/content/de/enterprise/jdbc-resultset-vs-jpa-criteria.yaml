@@ -1,7 +1,7 @@
 title: JDBC-ResultSet-Mapping vs. JPA-Criteria-API
 oldApproach: JDBC ResultSet
 modernApproach: JPA Criteria API
-summary: Ersetze manuelles JDBC-ResultSet-Mapping durch die typsichere Criteria-API von JPA für dynamische Abfragen.
+summary: Manuelles JDBC-ResultSet-Mapping durch die typsichere Criteria-API von JPA für dynamische Abfragen ersetzen.
 explanation: Rohes JDBC erfordert das Aufbauen von SQL-Strings, das Setzen von Parametern per Index und das manuelle Mappen jeder ResultSet-Spalte — ein fehleranfälliger Prozess, der bei Spaltenänderungen stillschweigend bricht. Die JPA-Criteria-API erstellt Abfragen programmatisch mit einem typsicheren Builder-Muster. Spaltennamen werden gegen das Entity-Modell validiert, das Ergebnis-Mapping erfolgt automatisch, und komplexe dynamische Abfragen lassen sich ohne Stringverkettung sauber zusammenstellen.
 whyModernWins:
 - icon: 🔒

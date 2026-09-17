@@ -1,7 +1,7 @@
 title: EJB versus CDI
 oldApproach: EJB
 modernApproach: CDI-Bean
-summary: Ersetze schwerfällige EJBs durch leichtgewichtige CDI-Beans für Dependency Injection und Transaktionsverwaltung.
+summary: Schwerfällige EJBs durch leichtgewichtige CDI-Beans für Dependency Injection und Transaktionsverwaltung ersetzen.
 explanation: CDI (Contexts and Dependency Injection) bietet dieselbe Dependency Injection und Transaktionsverwaltung wie EJBs, jedoch als einfache Java-Klassen ohne containerspezifische Interfaces oder Superklassen. Scopes wie @ApplicationScoped und @RequestScoped steuern den Lebenszyklus, und @Transactional ersetzt die obligatorische EJB-Transaktionssemantik.
 whyModernWins:
 - icon: 🪶

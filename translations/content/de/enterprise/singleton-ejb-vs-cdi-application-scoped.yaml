@@ -1,7 +1,7 @@
 title: Singleton EJB vs. CDI @ApplicationScoped
 oldApproach: "@Singleton EJB"
 modernApproach: "@ApplicationScoped CDI"
-summary: Ersetze Singleton-EJBs durch CDI-@ApplicationScoped-Beans für eine einfachere Verwaltung von gemeinsamem Zustand.
+summary: Singleton-EJBs durch CDI-@ApplicationScoped-Beans für eine einfachere Verwaltung von gemeinsamem Zustand ersetzen.
 explanation: "Singleton-EJBs bündeln Concurrency-Management (@Lock, @ConcurrencyManagement) und frühzeitige Initialisierung (@Startup) im EJB-Container. Ein CDI-@ApplicationScoped-Bean erreicht denselben Single-Instance-Lebenszyklus mit wesentlich weniger Aufwand. Wenn Concurrency-Steuerung benötigt wird, bieten Standard-java.util.concurrent-Hilfsmittel feinere Kontrolle als die EJB-Lock-Annotationen."
 whyModernWins:
 - icon: 🪶
@@ -9,7 +9,7 @@ whyModernWins:
   desc: "Kein @ConcurrencyManagement, @Lock oder @Startup — nur eine einzige @ApplicationScoped-Annotation."
 - icon: 🔧
   title: Flexible Nebenläufigkeit
-  desc: Verwende java.util.concurrent-Locks oder volatile für genau die benötigte Thread-Sicherheit.
+  desc: Verwendet java.util.concurrent-Locks oder volatile für genau die benötigte Thread-Sicherheit.
 - icon: 🧪
   title: Einfaches Testen
   desc: Einfache CDI-Beans können in Tests direkt ohne EJB-Container instanziiert werden.
