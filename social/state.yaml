@@ -1,6 +1,6 @@
-lastPostedKey: streams/stream-mapmulti
-lastTweetId: 2100644067852038175
-lastPostedAt: 2026-09-17T17:52:28.699742989Z
+lastPostedKey: strings/string-formatted
+lastTweetId: 2102110490898169933
+lastPostedAt: 2026-09-21T18:59:31.204082607Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -43,3 +43,4 @@ postedKeys:
 - enterprise/spring-api-versioning
 - io/http-client
 - streams/stream-mapmulti
+- strings/string-formatted

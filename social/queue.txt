@@ -1,4 +1,3 @@
-strings/string-formatted
 datetime/duration-and-period
 errors/optional-orelsethrow
 io/path-of
