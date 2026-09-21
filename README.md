@@ -4,7 +4,7 @@
 
 A collection of side-by-side code comparisons showing old Java patterns next to their clean, modern replacements — from Java 8 all the way to Java 25.
 
-🔗 **[javaevolved.github.io](https://javaevolved.github.io)**
+🔗 **[javaevolved.dev](https://javaevolved.dev)**
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://javaevolved.github.io)
 [![Snippets](https://img.shields.io/badge/snippets-112-blue)](#categories)
