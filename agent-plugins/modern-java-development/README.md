@@ -31,7 +31,7 @@ modern-java-development/
 ## Install
 
 Versioned `.tar.gz` packages and SHA-256 checksums are available from the
-[GitHub Releases](https://github.com/javaevolved/javaevolved.github.io/releases).
+[GitHub Releases](https://github.com/brunoborges/javaevolved/releases).
 Each archive contains the `modern-java-development` package directory.
 
 ### GitHub Copilot CLI
@@ -40,7 +40,7 @@ GitHub Copilot CLI supports the Agent Plugins specification. Add the
 java.evolved marketplace once:
 
 ```bash
-copilot plugin marketplace add javaevolved/javaevolved.github.io
+copilot plugin marketplace add brunoborges/javaevolved
 ```
 
 Then install the plugin:
@@ -59,9 +59,9 @@ Claude Code supports the Agent Skills format used by the `modern-java` skill.
 Clone this repository and copy the skill to your personal skills directory:
 
 ```bash
-git clone --depth 1 https://github.com/javaevolved/javaevolved.github.io.git
+git clone --depth 1 https://github.com/brunoborges/javaevolved.git
 mkdir -p ~/.claude/skills
-cp -R javaevolved.github.io/agent-plugins/modern-java-development/skills/modern-java \
+cp -R javaevolved/agent-plugins/modern-java-development/skills/modern-java \
   ~/.claude/skills/
 ```
 
@@ -75,9 +75,9 @@ Codex CLI also supports Agent Skills. Clone this repository and copy the skill
 to your personal skills directory:
 
 ```bash
-git clone --depth 1 https://github.com/javaevolved/javaevolved.github.io.git
+git clone --depth 1 https://github.com/brunoborges/javaevolved.git
 mkdir -p ~/.agents/skills
-cp -R javaevolved.github.io/agent-plugins/modern-java-development/skills/modern-java \
+cp -R javaevolved/agent-plugins/modern-java-development/skills/modern-java \
   ~/.agents/skills/
 ```
 

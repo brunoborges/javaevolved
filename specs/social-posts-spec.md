@@ -26,7 +26,7 @@ Each tweet is stored in `social/tweets/{category}/{slug}.yaml` so pattern pull r
 
 {oldLabel} → {modernLabel} (JDK {jdkVersion}+)
 
-🔗 https://javaevolved.github.io/{category}/{slug}.html
+🔗 https://javaevolved.dev/{category}/{slug}.html
 
 #Java #JavaEvolved
 ```

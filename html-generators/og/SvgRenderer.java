@@ -79,7 +79,7 @@ public final class SvgRenderer {
 
   <!-- Footer -->
   <text x="%d" y="%d" class="footer">JDK %s+</text>
-  <text x="%d" y="%d" class="brand" text-anchor="end">javaevolved.github.io</text>
+  <text x="%d" y="%d" class="brand" text-anchor="end">javaevolved.dev</text>
 </svg>
 """.formatted(
             // viewBox

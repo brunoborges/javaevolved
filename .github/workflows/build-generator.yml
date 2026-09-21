@@ -7,6 +7,7 @@ on:
       - '.github/workflows/build-generator.yml'
       - 'html-generators/generate.java'
       - 'html-generators/generateog.java'
+      - 'html-generators/og/**'
       - 'agent-plugins/modern-java-development/skills/modern-java/scripts/DetectJavaVersion.java'
   schedule:
     - cron: '0 6 * * 1'   # every Monday at 06:00 UTC
@@ -67,7 +68,7 @@ jobs:
           path: |
             html-generators/generateog.jar
             html-generators/generateog.aot
-          key: generateog-${{ hashFiles('html-generators/generateog.java') }}
+          key: generateog-${{ hashFiles('html-generators/generateog.java', 'html-generators/og/**') }}
 
   build-detect-java-version:
     runs-on: ubuntu-latest
