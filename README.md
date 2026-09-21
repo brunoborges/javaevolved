@@ -6,7 +6,7 @@ A collection of side-by-side code comparisons showing old Java patterns next to 
 
 🔗 **[javaevolved.dev](https://javaevolved.dev)**
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://javaevolved.github.io)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://javaevolved.dev)
 [![Snippets](https://img.shields.io/badge/snippets-112-blue)](#categories)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange)](#contributing)

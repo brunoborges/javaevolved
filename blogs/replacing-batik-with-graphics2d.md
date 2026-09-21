@@ -1,10 +1,10 @@
 # Replacing Apache Batik with Graphics2D: How We Made Our Java OG Card Generator Faster Than Python
 
-*March 2026 · [javaevolved.github.io](https://javaevolved.github.io)*
+*March 2026 · [javaevolved.dev](https://javaevolved.dev)*
 
 ---
 
-[Java Evolved](https://javaevolved.github.io) is a static site showcasing 112 modern Java patterns across 11 categories — each with a side-by-side "old vs modern" code comparison. For every pattern, we generate an Open Graph card: a 1200×630 PNG image used when links are shared on social media.
+[Java Evolved](https://javaevolved.dev) is a static site showcasing 112 modern Java patterns across 11 categories — each with a side-by-side "old vs modern" code comparison. For every pattern, we generate an Open Graph card: a 1200×630 PNG image used when links are shared on social media.
 
 This is the story of how we replaced Apache Batik with plain `Graphics2D`, split a monolithic script into modules using JBang, and tuned the JVM to squeeze out every last bit of performance — ending up faster than Python.
 
@@ -236,6 +236,6 @@ java -XX:AOTCacheOutput=html-generators/generateog.aot -jar html-generators/gene
 java -XX:Tier4CompileThreshold=100 -XX:AOTCache=html-generators/generateog.aot -jar html-generators/generateog.jar
 ```
 
-The full source is at [github.com/javaevolved/javaevolved.github.io](https://github.com/javaevolved/javaevolved.github.io) under `html-generators/`.
+The full source is at [github.com/brunoborges/javaevolved](https://github.com/brunoborges/javaevolved) under `html-generators/`.
 
-CI benchmark results: [Actions run #22563953466](https://github.com/javaevolved/javaevolved.github.io/actions/runs/22563953466).
+CI benchmark results: [Actions run #22563953466](https://github.com/brunoborges/javaevolved/actions/runs/22563953466).

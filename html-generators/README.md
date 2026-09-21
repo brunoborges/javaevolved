@@ -54,8 +54,8 @@ This produces a self-contained ~2.2 MB JAR with all dependencies (Jackson) bundl
 
 Two GitHub Actions workflows automate the build and deploy pipeline:
 
-1. **`build-generator.yml`** — Triggered when `generate.java` changes on `main`. Uses JBang to rebuild the fat JAR and commits the updated `generate.jar` back to the repository.
+1. **`build-generator.yml`** — Triggered when generator sources change on `main`, including `generate.java`, `generateog.java`, and `og/**`. Uses JBang to rebuild the fat JARs and saves them with their AOT caches in GitHub Actions caches. The OG cache key includes the renderer sources so branding and rendering changes invalidate stale builds.
 
-2. **`deploy.yml`** — Triggered when content, templates, the JAR, or site assets change on `main`. Runs `java -jar html-generators/generate.jar` to regenerate all HTML pages, `snippets.json`, and `index.html`, then deploys the `site/` folder to GitHub Pages.
+2. **`deploy.yml`** — Triggered when content, templates, site assets, or OG sources change on `main`, or after a successful generator build. Restores matching JARs and AOT caches, falling back to JBang on a cache miss, to regenerate the HTML, `snippets.json`, and OG cards. It then deploys the `site/` folder to GitHub Pages at `https://javaevolved.dev/`.
 
-This means the deploy workflow always uses the pre-built fat JAR (no JBang required at deploy time), and the JAR stays in sync with the source automatically.
+Both workflows use matching source-based cache keys, keeping deployed output in sync with the generator sources.

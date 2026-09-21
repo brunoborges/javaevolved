@@ -82,7 +82,7 @@ jobs:
           path: |
             html-generators/generateog.jar
             html-generators/generateog.aot
-          key: generateog-${{ hashFiles('html-generators/generateog.java') }}
+          key: generateog-${{ hashFiles('html-generators/generateog.java', 'html-generators/og/**') }}
 
       - name: Generate OG cards with cached JAR + AOT
         if: steps.changes.outputs.og == 'true' && steps.cache-restore-og.outputs.cache-hit == 'true'

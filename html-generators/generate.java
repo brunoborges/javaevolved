@@ -13,7 +13,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
  * Generate HTML detail pages from JSON snippet files and slug-template.html.
  * Generates the static site from the content and translation sources.
  */
-static final String BASE_URL = "https://javaevolved.github.io";
+static final String BASE_URL = "https://javaevolved.dev";
 static final String CONTENT_DIR = "content";
 static final String SITE_DIR = "site";
 static final String TRANSLATIONS_DIR = "translations";
@@ -506,7 +506,7 @@ String renderProofSection(Snippet s, Map<String, String> strings) {
     var pascal = slugToPascalCase(s.slug());
     var proofFile = Path.of("proof", s.category(), pascal + ".java");
     if (!Files.exists(proofFile)) return "";
-    var proofUrl = "https://github.com/javaevolved/javaevolved.github.io/blob/main/proof/%s/%s.java"
+    var proofUrl = "https://github.com/brunoborges/javaevolved/blob/main/proof/%s/%s.java"
             .formatted(s.category(), pascal);
     var label = strings.getOrDefault("sections.proof", "Proof");
     var linkText = strings.getOrDefault("sections.proofLink", "View proof source");
@@ -607,7 +607,7 @@ void generateTopicPages(Templates templates, SequencedMap<String, Snippet> allSn
     IO.println("Generated %d topic pages".formatted(tagSnippets.size()));
 }
 
-static final String GITHUB_ISSUES_URL = "https://github.com/javaevolved/javaevolved.github.io/issues/new";
+static final String GITHUB_ISSUES_URL = "https://github.com/brunoborges/javaevolved/issues/new";
 
 Map<String, String> buildContributeUrls(Snippet s, String locale, String localeName) {
     var codeUrl = "%s?template=code-issue.yml&title=%s&category=%s&slug=%s".formatted(

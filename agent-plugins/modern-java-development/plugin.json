@@ -5,10 +5,10 @@
   "description": "Version-aware guidance for writing, reviewing, and modernizing Java projects.",
   "author": {
     "name": "java.evolved",
-    "url": "https://javaevolved.github.io"
+    "url": "https://javaevolved.dev"
   },
-  "homepage": "https://javaevolved.github.io",
-  "repository": "https://github.com/javaevolved/javaevolved.github.io",
+  "homepage": "https://javaevolved.dev",
+  "repository": "https://github.com/brunoborges/javaevolved",
   "license": "MIT",
   "keywords": [
     "java",

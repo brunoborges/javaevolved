@@ -155,7 +155,7 @@ public final class PngRenderer {
         // Brand (right-aligned)
         g.setFont(brandFont);
         g.setColor(Palette.color(ACCENT));
-        var brand = "javaevolved.github.io";
+        var brand = "javaevolved.dev";
         var fm = g.getFontMetrics(brandFont);
         g.drawString(brand, W - PAD - fm.stringWidth(brand), H - 22);
     }

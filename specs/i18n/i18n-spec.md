@@ -359,9 +359,9 @@ The `<html>` opening tag becomes `<html lang="{{locale}}">`.
 `hreflang` alternate links are generated for every supported locale:
 
 ```html
-<link rel="alternate" hreflang="en"        href="https://javaevolved.github.io/language/type-inference-with-var.html">
-<link rel="alternate" hreflang="pt-BR"     href="https://javaevolved.github.io/pt-BR/language/type-inference-with-var.html">
-<link rel="alternate" hreflang="x-default" href="https://javaevolved.github.io/language/type-inference-with-var.html">
+<link rel="alternate" hreflang="en"        href="https://javaevolved.dev/language/type-inference-with-var.html">
+<link rel="alternate" hreflang="pt-BR"     href="https://javaevolved.dev/pt-BR/language/type-inference-with-var.html">
+<link rel="alternate" hreflang="x-default" href="https://javaevolved.dev/language/type-inference-with-var.html">
 ```
 
 ---
