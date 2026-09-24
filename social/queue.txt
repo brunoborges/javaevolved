@@ -1,4 +1,3 @@
-datetime/duration-and-period
 errors/optional-orelsethrow
 io/path-of
 collections/unmodifiable-collectors

@@ -1,6 +1,6 @@
-lastPostedKey: strings/string-formatted
-lastTweetId: 2102110490898169933
-lastPostedAt: 2026-09-21T18:59:31.204082607Z
+lastPostedKey: datetime/duration-and-period
+lastTweetId: 2103184013825355846
+lastPostedAt: 2026-09-24T18:05:19.078970002Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -44,3 +44,4 @@ postedKeys:
 - io/http-client
 - streams/stream-mapmulti
 - strings/string-formatted
+- datetime/duration-and-period
