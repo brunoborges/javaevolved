@@ -1,6 +1,6 @@
-lastPostedKey: errors/optional-orelsethrow
-lastTweetId: 2104667396887945443
-lastPostedAt: 2026-09-28T20:19:45.134292922Z
+lastPostedKey: io/path-of
+lastTweetId: 2105737167414686066
+lastPostedAt: 2026-10-01T19:10:38.318398464Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -46,3 +46,4 @@ postedKeys:
 - strings/string-formatted
 - datetime/duration-and-period
 - errors/optional-orelsethrow
+- io/path-of
