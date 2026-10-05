@@ -1,4 +1,3 @@
-collections/unmodifiable-collectors
 enterprise/manual-transaction-vs-declarative
 security/tls-default
 enterprise/jndi-lookup-vs-cdi-injection

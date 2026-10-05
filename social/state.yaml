@@ -1,6 +1,6 @@
-lastPostedKey: io/path-of
-lastTweetId: 2105737167414686066
-lastPostedAt: 2026-10-01T19:10:38.318398464Z
+lastPostedKey: collections/unmodifiable-collectors
+lastTweetId: 2107219044411887640
+lastPostedAt: 2026-10-05T21:19:05.319498206Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -47,3 +47,4 @@ postedKeys:
 - datetime/duration-and-period
 - errors/optional-orelsethrow
 - io/path-of
+- collections/unmodifiable-collectors
