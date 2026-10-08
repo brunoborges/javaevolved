@@ -1,6 +1,6 @@
-lastPostedKey: collections/unmodifiable-collectors
-lastTweetId: 2107219044411887640
-lastPostedAt: 2026-10-05T21:19:05.319498206Z
+lastPostedKey: enterprise/manual-transaction-vs-declarative
+lastTweetId: 2108280126374805844
+lastPostedAt: 2026-10-08T19:35:26.933036316Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -48,3 +48,4 @@ postedKeys:
 - errors/optional-orelsethrow
 - io/path-of
 - collections/unmodifiable-collectors
+- enterprise/manual-transaction-vs-declarative
