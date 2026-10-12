@@ -1,4 +1,3 @@
-security/tls-default
 enterprise/jndi-lookup-vs-cdi-injection
 errors/null-in-switch
 datetime/instant-precision
