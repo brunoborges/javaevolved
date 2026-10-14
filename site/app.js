@@ -370,7 +370,18 @@
 
     // Apply filter from a given category string (or "all" / empty for no filter)
     const applyHashFilter = (category) => {
-      if (category && catDropdownCtrl && catDropdownCtrl.setActive(category)) {
+      if (category === 'browse-all' && showAllButton) {
+        activeCategory = null;
+        activeJdk = null;
+        if (catDropdownCtrl) catDropdownCtrl.setActive('all');
+        if (jdkDropdownCtrl) jdkDropdownCtrl.setActive('all');
+        showingAll = true;
+        hasSelection = true;
+        updateShowAllButton();
+        applyFilters();
+        const section = document.getElementById('all-comparisons');
+        if (section) section.scrollIntoView({ behavior: 'smooth' });
+      } else if (category && catDropdownCtrl && catDropdownCtrl.setActive(category)) {
         hasSelection = true;
         activeCategory = category;
         showingAll = false;
