@@ -1,4 +1,3 @@
-enterprise/jndi-lookup-vs-cdi-injection
 errors/null-in-switch
 datetime/instant-precision
 language/primitive-types-in-patterns

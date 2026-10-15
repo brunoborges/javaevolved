@@ -1,6 +1,6 @@
-lastPostedKey: security/tls-default
-lastTweetId: 2109765049346855221
-lastPostedAt: 2026-10-12T21:56:00.141937845Z
+lastPostedKey: enterprise/jndi-lookup-vs-cdi-injection
+lastTweetId: 2110792113780637886
+lastPostedAt: 2026-10-15T17:57:11.421749543Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -50,3 +50,4 @@ postedKeys:
 - collections/unmodifiable-collectors
 - enterprise/manual-transaction-vs-declarative
 - security/tls-default
+- enterprise/jndi-lookup-vs-cdi-injection
