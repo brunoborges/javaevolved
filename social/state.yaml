@@ -1,6 +1,6 @@
-lastPostedKey: enterprise/jndi-lookup-vs-cdi-injection
-lastTweetId: 2110792113780637886
-lastPostedAt: 2026-10-15T17:57:11.421749543Z
+lastPostedKey: errors/null-in-switch
+lastTweetId: 2112266200457904214
+lastPostedAt: 2026-10-19T19:34:41.057106335Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -51,3 +51,4 @@ postedKeys:
 - enterprise/manual-transaction-vs-declarative
 - security/tls-default
 - enterprise/jndi-lookup-vs-cdi-injection
+- errors/null-in-switch
