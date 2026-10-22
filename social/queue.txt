@@ -1,4 +1,3 @@
-datetime/instant-precision
 language/primitive-types-in-patterns
 language/text-blocks-for-multiline-strings
 io/file-memory-mapping

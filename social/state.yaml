@@ -1,6 +1,6 @@
-lastPostedKey: errors/null-in-switch
-lastTweetId: 2112266200457904214
-lastPostedAt: 2026-10-19T19:34:41.057106335Z
+lastPostedKey: datetime/instant-precision
+lastTweetId: 2113332793090429036
+lastPostedAt: 2026-10-22T18:12:56.537883605Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -52,3 +52,4 @@ postedKeys:
 - security/tls-default
 - enterprise/jndi-lookup-vs-cdi-injection
 - errors/null-in-switch
+- datetime/instant-precision
