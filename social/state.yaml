@@ -1,6 +1,6 @@
-lastPostedKey: language/primitive-types-in-patterns
-lastTweetId: 2114804307107238098
-lastPostedAt: 2026-10-26T19:40:12.827530548Z
+lastPostedKey: language/text-blocks-for-multiline-strings
+lastTweetId: 2115886747112390997
+lastPostedAt: 2026-10-29T19:21:26.653760877Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -54,3 +54,4 @@ postedKeys:
 - errors/null-in-switch
 - datetime/instant-precision
 - language/primitive-types-in-patterns
+- language/text-blocks-for-multiline-strings
