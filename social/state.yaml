@@ -1,6 +1,6 @@
-lastPostedKey: language/text-blocks-for-multiline-strings
-lastTweetId: 2115886747112390997
-lastPostedAt: 2026-10-29T19:21:26.653760877Z
+lastPostedKey: io/file-memory-mapping
+lastTweetId: 2117384210348417318
+lastPostedAt: 2026-11-02T22:31:49.701437844Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -55,3 +55,4 @@ postedKeys:
 - datetime/instant-precision
 - language/primitive-types-in-patterns
 - language/text-blocks-for-multiline-strings
+- io/file-memory-mapping
