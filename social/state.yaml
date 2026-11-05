@@ -1,6 +1,6 @@
-lastPostedKey: io/file-memory-mapping
-lastTweetId: 2117384210348417318
-lastPostedAt: 2026-11-02T22:31:49.701437844Z
+lastPostedKey: tooling/junit6-with-jspecify
+lastTweetId: 2118446704265470178
+lastPostedAt: 2026-11-05T20:53:47.960968064Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -56,3 +56,4 @@ postedKeys:
 - language/primitive-types-in-patterns
 - language/text-blocks-for-multiline-strings
 - io/file-memory-mapping
+- tooling/junit6-with-jspecify

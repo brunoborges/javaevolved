@@ -1,4 +1,3 @@
-tooling/junit6-with-jspecify
 streams/virtual-thread-executor
 language/switch-expressions
 errors/record-based-errors
