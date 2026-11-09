@@ -1,6 +1,6 @@
-lastPostedKey: tooling/junit6-with-jspecify
-lastTweetId: 2118446704265470178
-lastPostedAt: 2026-11-05T20:53:47.960968064Z
+lastPostedKey: streams/virtual-thread-executor
+lastTweetId: 2119931541287579826
+lastPostedAt: 2026-11-09T23:14:00.705853649Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -57,3 +57,4 @@ postedKeys:
 - language/text-blocks-for-multiline-strings
 - io/file-memory-mapping
 - tooling/junit6-with-jspecify
+- streams/virtual-thread-executor

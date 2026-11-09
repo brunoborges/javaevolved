@@ -1,4 +1,3 @@
-streams/virtual-thread-executor
 language/switch-expressions
 errors/record-based-errors
 streams/collectors-flatmapping
