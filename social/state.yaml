@@ -1,6 +1,6 @@
-lastPostedKey: streams/virtual-thread-executor
-lastTweetId: 2119931541287579826
-lastPostedAt: 2026-11-09T23:14:00.705853649Z
+lastPostedKey: language/switch-expressions
+lastTweetId: 2120988884591136971
+lastPostedAt: 2026-11-12T21:15:30.976165105Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -58,3 +58,4 @@ postedKeys:
 - io/file-memory-mapping
 - tooling/junit6-with-jspecify
 - streams/virtual-thread-executor
+- language/switch-expressions

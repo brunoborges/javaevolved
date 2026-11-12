@@ -1,4 +1,3 @@
-language/switch-expressions
 errors/record-based-errors
 streams/collectors-flatmapping
 language/diamond-operator
