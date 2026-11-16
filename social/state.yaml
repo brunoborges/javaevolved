@@ -1,6 +1,6 @@
-lastPostedKey: language/switch-expressions
-lastTweetId: 2120988884591136971
-lastPostedAt: 2026-11-12T21:15:30.976165105Z
+lastPostedKey: errors/record-based-errors
+lastTweetId: 2122466738377728350
+lastPostedAt: 2026-11-16T23:07:58.903138958Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -59,3 +59,4 @@ postedKeys:
 - tooling/junit6-with-jspecify
 - streams/virtual-thread-executor
 - language/switch-expressions
+- errors/record-based-errors
