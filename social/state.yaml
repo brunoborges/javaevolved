@@ -1,6 +1,6 @@
-lastPostedKey: errors/record-based-errors
-lastTweetId: 2122466738377728350
-lastPostedAt: 2026-11-16T23:07:58.903138958Z
+lastPostedKey: streams/collectors-flatmapping
+lastTweetId: 2123535798045667504
+lastPostedAt: 2026-11-19T21:56:02.490235997Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -60,3 +60,4 @@ postedKeys:
 - streams/virtual-thread-executor
 - language/switch-expressions
 - errors/record-based-errors
+- streams/collectors-flatmapping
