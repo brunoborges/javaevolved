@@ -79,8 +79,8 @@ jobs:
 
       - uses: actions/setup-java@v6
         with:
-          distribution: temurin
-          java-version: '8'
+          distribution: zulu
+          java-version: '8.0.492+9'
 
       - name: Build Java version detector JAR
         working-directory: agent-plugins/modern-java-development
@@ -96,7 +96,7 @@ jobs:
             jar xf "$GITHUB_WORKSPACE/agent-plugins/modern-java-development/$jarfile"
           )
           rm -rf "$classes/shipped/META-INF"
-          if diff --recursive --quiet "$classes/compiled" "$classes/shipped"; then
+          if diff --recursive --brief "$classes/compiled" "$classes/shipped"; then
             exit 0
           fi
           jar cfe "$jarfile" DetectJavaVersion -C "$classes/compiled" .
