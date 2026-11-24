@@ -1,4 +1,3 @@
-language/diamond-operator
 language/compact-canonical-constructor
 tooling/aot-class-preloading
 io/deserialization-filters

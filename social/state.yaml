@@ -1,6 +1,6 @@
-lastPostedKey: streams/collectors-flatmapping
-lastTweetId: 2123535798045667504
-lastPostedAt: 2026-11-19T21:56:02.490235997Z
+lastPostedKey: language/diamond-operator
+lastTweetId: 2125037928581665235
+lastPostedAt: 2026-11-24T01:24:58.294488694Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -61,3 +61,4 @@ postedKeys:
 - language/switch-expressions
 - errors/record-based-errors
 - streams/collectors-flatmapping
+- language/diamond-operator
