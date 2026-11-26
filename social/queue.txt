@@ -1,4 +1,3 @@
-language/compact-canonical-constructor
 tooling/aot-class-preloading
 io/deserialization-filters
 enterprise/spring-xml-config-vs-annotations

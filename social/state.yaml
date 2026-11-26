@@ -1,6 +1,6 @@
-lastPostedKey: language/diamond-operator
-lastTweetId: 2125037928581665235
-lastPostedAt: 2026-11-24T01:24:58.294488694Z
+lastPostedKey: language/compact-canonical-constructor
+lastTweetId: 2126084293290025102
+lastPostedAt: 2026-11-26T22:42:51.090656146Z
 postedKeys:
 - language/guarded-patterns
 - datetime/math-clamp
@@ -62,3 +62,4 @@ postedKeys:
 - errors/record-based-errors
 - streams/collectors-flatmapping
 - language/diamond-operator
+- language/compact-canonical-constructor
